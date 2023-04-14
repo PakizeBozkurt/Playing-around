@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
-import { Navbar } from 'react-bootstrap';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
+import React from "react";
+import "./App.css";
+import { Navbar } from "react-bootstrap";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +13,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
