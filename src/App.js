@@ -1,19 +1,20 @@
 import React from "react";
-import "./App.css";
-import { Navbar } from "react-bootstrap";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import ContactMe from "./components/ContactMe";
+// components
+import Banner from "./components/Banner";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <ContactMe />
-      <Footer />
+    <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+      <Header />
+      <Banner />
+      <NavBar />
+      
+      <div className="h-[4000px]"></div>
     </div>
   );
-}
+};
 
 export default App;
