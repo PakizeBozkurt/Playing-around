@@ -4,14 +4,13 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 
-
 const App = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Banner />
       <NavBar />
-      
+
       <div className="h-[4000px]"></div>
     </div>
   );

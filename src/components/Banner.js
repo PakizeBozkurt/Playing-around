@@ -2,7 +2,7 @@ import React from "react";
 //Images
 import Image from "../assets/avatar.svg";
 //Icons
-import { FaGithub, FaLinkedin, FaGmail } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 //Type animation
 import { TypeAnimation } from "react-type-animation";
 //Motion
@@ -81,7 +81,7 @@ const Banner = () => {
                 <FaLinkedin />
               </a>
               <a href="pakiozihak@gmail.com">
-                <FaGmail />
+                <FaGoogle />
               </a>
             </motion.div>
           </div>
