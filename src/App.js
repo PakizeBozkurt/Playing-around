@@ -3,6 +3,7 @@ import React from "react";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Banner />
       <NavBar />
+      <About />
 
       <div className="h-[4000px]"></div>
     </div>
