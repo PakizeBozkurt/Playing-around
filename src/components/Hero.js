@@ -35,8 +35,7 @@ function Hero() {
           />
           <Carousel.Caption>
             <h3>JS</h3>
-            <p>
-            </p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
