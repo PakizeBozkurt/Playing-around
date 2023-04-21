@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       <Banner />
       <NavBar />
       <About />
+      <Contact />
 
-      <div className="h-[4000px]"></div>
+      {/* <div className="h-[4000px]"></div> */}
     </div>
   );
 };
