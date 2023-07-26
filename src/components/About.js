@@ -2,7 +2,7 @@ import React from "react";
 //motion
 import { motion } from "framer-motion";
 //variant
-import { fadeIn } from "../variant";
+import { fadeIn } from "../variants";
 
 const About = () => {
   return (
